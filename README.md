@@ -59,6 +59,7 @@ word_list = ["naruto", "sasuke", "hinata", "neji", "shikamaru", "gaara",
              "itachi", "minato", "orochimaru", "zetsu"]
 chosen_word = random.choice(word_list)
 lives = 6
+print(f'pssst, the solution is {chosen_word}.')
 
 display = []
 word_length = len(chosen_word)
